@@ -36,8 +36,6 @@ def print_top(filename):
   """Prints the top count listing for the given file."""
   word_count = word_count_dict(filename)
 
-  # Each item is a (word, count) tuple.
-  # Sort them so the big counts are first using key=get_count() to extract count.
   items = sorted(word_count.items(), key=get_count, reverse=True)
 
   # Print the first 20
