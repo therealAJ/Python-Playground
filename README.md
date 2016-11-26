@@ -1,2 +1,2 @@
-# Python-Playground
-Sandbox for Python Dev 
+# python sandbox
+my workspace for cool things in python 
